@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+vet/node_modules
+vet/.pnp
+vet/.pnp.js
+
+# testing
+vet/coverage
+
+# production
+vet/build
+
+# misc
+vet/.DS_Store
+vet/.env.local
+vet/.env.development.local
+vet/.env.test.local
+vet/.env.production.local
+
+vet/npm-debug.log*
+vet/yarn-debug.log*
+vet/yarn-error.log*
+
+# dependencies
+react-intro/node_modules
+react-intro/.pnp
+react-intro/.pnp.js
+
+# testing
+react-intro/coverage
+
+# production
+react-intro/build
+
+# misc
+react-intro/.DS_Store
+react-intro/.env.local
+react-intro/.env.development.local
+react-intro/.env.test.local
+react-intro/.env.production.local
+
+react-intro/npm-debug.log*
+react-intro/yarn-debug.log*
+react-intro/yarn-error.log*
